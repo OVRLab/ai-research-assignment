@@ -1,0 +1,55 @@
+[
+  {
+    "id": "dev-01",
+    "prompt": "What is evaporation?",
+    "expected_information": [
+      "A liquid changes into a gas."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "dev-02",
+    "prompt": "Why do we see lightning before we hear thunder?",
+    "expected_information": [
+      "Light travels much faster than sound."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "dev-03",
+    "prompt": "What does a password manager do?",
+    "expected_information": [
+      "Stores and retrieves passwords.",
+      "Can generate strong passwords."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "dev-04",
+    "prompt": "What is the difference between a square and a rectangle?",
+    "expected_information": [
+      "Both have four right angles.",
+      "A square has four equal sides; a rectangle need not."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "dev-05",
+    "prompt": "Explain how composting works in three numbered steps.",
+    "expected_information": [
+      "Organic material is collected.",
+      "Microorganisms break it down with suitable air and moisture.",
+      "The resulting compost can improve soil."
+    ],
+    "requests_detail": true
+  },
+  {
+    "id": "dev-06",
+    "prompt": "Give two reasons to label the axes of a graph, explaining each reason.",
+    "expected_information": [
+      "Labels identify the quantities plotted.",
+      "Units or scale help readers interpret values."
+    ],
+    "requests_detail": true
+  }
+]

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.cache/
+artifacts/
+models/
+results/
+.env
+.env.*
+*.gguf
+*.safetensors
+.DS_Store

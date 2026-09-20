@@ -1,0 +1,182 @@
+[
+  {
+    "id": "test-01",
+    "prompt": "Why does a wet towel dry faster in moving air?",
+    "expected_information": [
+      "Moving air carries away water vapor and increases evaporation."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-02",
+    "prompt": "What is the difference between mass and weight?",
+    "expected_information": [
+      "Mass measures the amount of matter.",
+      "Weight is the force due to gravity."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-03",
+    "prompt": "Why does the Moon appear to change shape during a month?",
+    "expected_information": [
+      "Its position relative to Earth and the Sun changes.",
+      "We see different portions of its sunlit half."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-04",
+    "prompt": "What is a prime number?",
+    "expected_information": [
+      "An integer greater than one.",
+      "Exactly two positive divisors: one and itself."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-05",
+    "prompt": "What does a file extension usually indicate?",
+    "expected_information": [
+      "The file type or format.",
+      "It does not guarantee the actual contents match the extension."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-06",
+    "prompt": "Why do people use version control for source code?",
+    "expected_information": [
+      "Tracks changes over time.",
+      "Supports collaboration or recovering earlier versions."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-07",
+    "prompt": "What is the difference between a browser and a search engine?",
+    "expected_information": [
+      "A browser is software for accessing websites.",
+      "A search engine is a service for finding information or pages."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-08",
+    "prompt": "Why does salt dissolve in water?",
+    "expected_information": [
+      "Polar water molecules attract and separate the ions in salt."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-09",
+    "prompt": "What does an average tell you about a set of numbers?",
+    "expected_information": [
+      "The arithmetic mean is the sum divided by the number of values.",
+      "It summarizes a central value."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-10",
+    "prompt": "Why are railway tracks built with allowance for expansion?",
+    "expected_information": [
+      "Metal expands when heated.",
+      "Allowance helps prevent buckling or stress."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-11",
+    "prompt": "What is the purpose of a bibliography?",
+    "expected_information": [
+      "Identifies the sources used or consulted.",
+      "Helps readers locate or verify them."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-12",
+    "prompt": "What is the difference between a renewable and a nonrenewable resource?",
+    "expected_information": [
+      "Renewable resources replenish on a relevant human timescale.",
+      "Nonrenewable resources are finite or replenish much more slowly."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-13",
+    "prompt": "Why does a ball rolling on a level floor eventually stop?",
+    "expected_information": [
+      "Friction and other resistance dissipate its kinetic energy."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-14",
+    "prompt": "What does the denominator of a fraction represent?",
+    "expected_information": [
+      "The number of equal parts into which the whole is divided."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-15",
+    "prompt": "Why can a sentence have different meanings without punctuation?",
+    "expected_information": [
+      "Punctuation marks structure, grouping, or pauses.",
+      "Different grouping can change the interpretation."
+    ],
+    "requests_detail": false
+  },
+  {
+    "id": "test-16",
+    "prompt": "Explain the water cycle in four numbered steps, with a short explanation of each.",
+    "expected_information": [
+      "Evaporation.",
+      "Condensation.",
+      "Precipitation.",
+      "Collection or runoff."
+    ],
+    "requests_detail": true
+  },
+  {
+    "id": "test-17",
+    "prompt": "Compare RAM and persistent storage. Explain their purpose and what happens to their contents when power is removed.",
+    "expected_information": [
+      "RAM holds working data and is normally volatile.",
+      "Persistent storage retains files without power."
+    ],
+    "requests_detail": true
+  },
+  {
+    "id": "test-18",
+    "prompt": "Give three practical ways to reduce household water use and explain why each helps.",
+    "expected_information": [
+      "Three distinct plausible actions.",
+      "An explanation of water savings for each."
+    ],
+    "requests_detail": true
+  },
+  {
+    "id": "test-19",
+    "prompt": "Explain why seasons occur. Include Earth's axial tilt, sunlight angle, and day length.",
+    "expected_information": [
+      "Earth's axial tilt is the main cause.",
+      "The angle of sunlight changes.",
+      "Day length changes with the season."
+    ],
+    "requests_detail": true
+  },
+  {
+    "id": "test-20",
+    "prompt": "Describe how to compare two products fairly using price, durability, and suitability. Give one consideration for each.",
+    "expected_information": [
+      "Price or total cost.",
+      "Expected durability or lifespan.",
+      "Fit for the intended task."
+    ],
+    "requests_detail": true
+  }
+]

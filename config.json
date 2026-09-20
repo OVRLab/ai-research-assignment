@@ -1,0 +1,11 @@
+{
+  "model": "ibm-granite/granite-3.1-1b-a400m-instruct",
+  "revision": "0da7a48b0276d500ce5922fd2b33944091fc6c09",
+  "llama_cpp_revision": "4260903678a7525f43419dc234a942b551a8951e",
+  "seed": 42,
+  "system": "You are a helpful assistant. Answer accurately.",
+  "concise_system": "You are a helpful assistant. Answer accurately and concisely, retaining all information needed to answer the question.",
+  "calibration_concise": "Answer accurately in one concise sentence.",
+  "calibration_verbose": "Answer accurately in an extended paragraph with additional explanation and examples.",
+  "ollama_options": {"temperature": 0, "seed": 42, "num_ctx": 4096, "num_predict": 512}
+}
