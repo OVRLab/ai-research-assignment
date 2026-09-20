@@ -2,7 +2,7 @@
 
 **Change one model behavior. Measure the consequences.**
 
-This exercise is part of the application for OVRLab's [remote AI Researcher role](https://ovrlab.io/careers). We study how changes to open-weight models affect their behavior, accuracy, and efficiency.
+This exercise is part of the application for OVRLab's [remote AI Researcher role](https://ovrlab.io/careers/ai-researcher). We study how changes to open-weight models affect their behavior, accuracy, and efficiency.
 
 > Can a small weight modification make IBM Granite more concise while preserving correct, complete answers and the ability to provide detail when requested?
 
@@ -29,6 +29,10 @@ Changing only the system prompt does not satisfy the weight-editing part. The pr
 - **[Research note template](templates/research-note.md)** and **[model card template](templates/model-card.md)**.
 
 The starter uses a limited attention-weight edit. It does not assume that a tool supporting dense transformers edits every part of Granite's MoE architecture. Ollama runs the exported models; Python performs the modification.
+
+## Published experimental pilot
+
+Our [Granite concision experiment on Hugging Face](https://huggingface.co/OVRLab/granite-3.1-1b-a400m-concision-experiment) includes the evaluated weights and GGUF, code, raw outputs, and reproduction documentation. The length effect was weak and inconsistent, and behavioral correctness has not been fully graded. It is a reporting reference, not a recommended setting or a complete candidate submission. Develop your own hypothesis and explain your own findings; there is no target score to match.
 
 ## Evaluation
 
